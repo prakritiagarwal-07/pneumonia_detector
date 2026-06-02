@@ -14,11 +14,13 @@ st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;600&display=swap');
 
-html, body, [class*="css"] {
+/* Fixes the canvas viewport background safely */
+.stApp {
     font-family: 'Space Grotesk', sans-serif;
     background-color: #0b0e14;
     color: #e8edf8;
 }
+
 #MainMenu, footer, header { visibility: hidden; }
 .block-container { padding-top: 2rem; padding-bottom: 2rem; max-width: 900px; }
 .stSpinner > div { border-top-color: #4f8ef7 !important; }
